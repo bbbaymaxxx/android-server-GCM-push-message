@@ -14,7 +14,8 @@ POST request : https://gcm-http.googleapis.com/gcm/send
 HTTP header 規定內容：
 
 > httpPost.addHeader("Authorization", "key=" + apiKey);
-> httpPost.addHeader("Content-Type", "application/json");
+> 
+httpPost.addHeader("Content-Type", "application/json");
 
 將訊息包成 JSON 格式送出，並且要完全符合以下格式
 
